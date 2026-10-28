@@ -10,9 +10,9 @@ const invitationConfig = {
   numerals: "latn",
 
   meta: {
-    title: "أحمد وسارة — دعوة زفاف",
+    title: "ع و ر — دعوة زفاف",
     description:
-      "نموذج تجريبي لدعوة زفاف رقمية. بكل الحب والفرح، ندعوكم لمشاركة أجمل لحظات العمر في حفل زفاف أحمد وسارة.",
+      "نموذج تجريبي لدعوة زفاف رقمية. بكل الحب والفرح، ندعوكم لمشاركة أجمل لحظات العمر في حفل زفاف ع و ر.",
     themeColor: "#062a21",
   },
 
@@ -30,10 +30,10 @@ const invitationConfig = {
   },
 
   couple: {
-    groom: { firstName: "أحمد", fullName: "أحمد خالد" },
-    bride: { firstName: "سارة", fullName: "سارة ياسين" },
+    groom: { firstName: "ع", fullName: "ع" },
+    bride: { firstName: "ر", fullName: "ر" },
     order: "groom-first",
-    monogram: "أ و س",
+    monogram: "ع و ر",
   },
 
   event: {
@@ -118,7 +118,7 @@ const invitationConfig = {
    */
 
   share: {
-    title: "دعوة زفاف أحمد وسارة",
+    title: "دعوة زفاف ع و ر",
     text: "يسعدنا أن تشاركونا فرحتنا.",
   },
 
