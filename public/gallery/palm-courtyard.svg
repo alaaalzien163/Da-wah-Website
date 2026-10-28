@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <title>فناء بقوس زمردي ونخيل ذهبي</title>
+  <defs>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/>
+      <stop offset="1" stop-color="#efe4d2"/>
+    </linearGradient>
+    <linearGradient id="door" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3b2e"/>
+      <stop offset="1" stop-color="#04211a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#ivory)"/>
+  <rect x="42" y="42" width="716" height="916" fill="none" stroke="#c6a664" stroke-opacity=".38"/>
+
+  <circle cx="400" cy="214" r="62" fill="none" stroke="#c6a664" stroke-opacity=".55"/>
+
+  <path d="M250 830V430c0-83 67-150 150-150s150 67 150 150v400z" fill="url(#door)"/>
+  <path d="M278 830V436c0-67 55-122 122-122s122 55 122 122v394" fill="none" stroke="#c6a664" stroke-opacity=".75" stroke-width="2"/>
+  <path d="M400 330v494" stroke="#e3d0a6" stroke-opacity=".18"/>
+  <path d="M326 830V500c0-41 33-74 74-74s74 33 74 74v330" fill="none" stroke="#e3d0a6" stroke-opacity=".22"/>
+
+  <g fill="none" stroke="#12503e" stroke-width="4" stroke-linecap="round">
+    <path d="M186 830V548c0-56 22-98 66-126"/>
+    <path d="M614 830V548c0-56-22-98-66-126"/>
+  </g>
+  <g fill="#12503e" fill-opacity=".9">
+    <ellipse cx="214" cy="548" rx="14" ry="42" transform="rotate(-28 214 548)"/>
+    <ellipse cx="176" cy="592" rx="13" ry="38" transform="rotate(32 176 592)"/>
+    <ellipse cx="222" cy="620" rx="12" ry="36" transform="rotate(-52 222 620)"/>
+    <ellipse cx="166" cy="660" rx="11" ry="33" transform="rotate(44 166 660)"/>
+    <ellipse cx="216" cy="692" rx="10" ry="30" transform="rotate(-60 216 692)"/>
+
+    <ellipse cx="586" cy="548" rx="14" ry="42" transform="rotate(28 586 548)"/>
+    <ellipse cx="624" cy="592" rx="13" ry="38" transform="rotate(-32 624 592)"/>
+    <ellipse cx="578" cy="620" rx="12" ry="36" transform="rotate(52 578 620)"/>
+    <ellipse cx="634" cy="660" rx="11" ry="33" transform="rotate(-44 634 660)"/>
+    <ellipse cx="584" cy="692" rx="10" ry="30" transform="rotate(60 584 692)"/>
+  </g>
+
+  <g fill="none" stroke="#c6a664" stroke-linecap="round" stroke-opacity=".75">
+    <path d="M86 830h628" stroke-width="2"/>
+    <path d="M86 868h628" stroke-opacity=".5"/>
+    <path d="M118 830l28-32 28 32-28 32z" stroke-opacity=".6"/>
+    <path d="M626 830l28-32 28 32-28 32z" stroke-opacity=".6"/>
+    <path d="M400 798l18 24-18 24-18-24z" stroke-opacity=".8"/>
+  </g>
+
+  <g fill="#c6a664" fill-opacity=".65">
+    <circle cx="120" cy="188" r="2"/>
+    <circle cx="680" cy="240" r="2"/>
+    <circle cx="152" cy="300" r="1.5"/>
+    <circle cx="648" cy="340" r="1.5"/>
+  </g>
+
+  <path d="M74 920h652" stroke="#c6a664" stroke-opacity=".3"/>
+</svg>

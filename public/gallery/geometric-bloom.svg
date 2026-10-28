@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <title>نجمة هندسية ثمانية بزخرفة زمردية وذهبية</title>
+  <defs>
+    <linearGradient id="ivory" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/>
+      <stop offset="1" stop-color="#f1e6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#ivory)"/>
+  <rect x="42" y="42" width="716" height="916" fill="none" stroke="#c6a664" stroke-opacity=".38"/>
+
+  <g fill="none" stroke="#c6a664" stroke-opacity=".5">
+    <circle cx="400" cy="500" r="292"/>
+    <circle cx="400" cy="500" r="244" stroke-opacity=".3"/>
+  </g>
+
+  <path d="M400 240 L442 398 L584 316 L502 458 L660 500 L502 542 L584 684 L442 602 L400 760 L358 602 L216 684 L298 542 L140 500 L298 458 L216 316 L358 398 Z"
+        fill="#062a21" stroke="#c6a664" stroke-width="2"/>
+  <path d="M400 318 L432 440 L558 386 L504 512 L626 500 L504 538 L558 614 L432 560 L400 682 L368 560 L242 614 L296 538 L174 500 L296 512 L242 386 L368 440 Z"
+        fill="none" stroke="#e3d0a6" stroke-opacity=".8"/>
+
+  <g fill="none" stroke="#c6a664">
+    <circle cx="400" cy="500" r="128" stroke-opacity=".9"/>
+    <circle cx="400" cy="500" r="104" stroke-opacity=".45"/>
+    <path d="M400 372l34 94-34 94-34-94z" stroke-opacity=".8"/>
+    <path d="M272 500l94-34 94 34-94 34z" stroke-opacity=".8"/>
+  </g>
+
+  <g fill="#e3d0a6" fill-opacity=".8">
+    <circle cx="400" cy="500" r="7"/>
+    <circle cx="400" cy="240" r="4"/>
+    <circle cx="400" cy="760" r="4"/>
+    <circle cx="140" cy="500" r="4"/>
+    <circle cx="660" cy="500" r="4"/>
+  </g>
+
+  <g fill="none" stroke="#c6a664" stroke-opacity=".55">
+    <path d="M96 128h84M96 128v84"/>
+    <path d="M704 128h-84M704 128v84"/>
+    <path d="M96 872h84M96 872v-84"/>
+    <path d="M704 872h-84M704 872v-84"/>
+  </g>
+  <g fill="#12503e" fill-opacity=".55">
+    <circle cx="120" cy="176" r="2.5"/>
+    <circle cx="680" cy="176" r="2.5"/>
+    <circle cx="120" cy="824" r="2.5"/>
+    <circle cx="680" cy="824" r="2.5"/>
+  </g>
+
+  <path d="M74 920h652" stroke="#c6a664" stroke-opacity=".3"/>
+</svg>

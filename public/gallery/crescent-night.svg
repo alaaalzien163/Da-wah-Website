@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <title>هلال ذهبي ونجوم على خلفية زمردية</title>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3b2e"/>
+      <stop offset="1" stop-color="#04211a"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="40%" r="48%">
+      <stop offset="0" stop-color="#e3d0a6" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#e3d0a6" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="crescent">
+      <rect width="800" height="1000" fill="#000"/>
+      <circle cx="392" cy="430" r="196" fill="#fff"/>
+      <circle cx="470" cy="386" r="188" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="800" height="1000" fill="url(#night)"/>
+  <rect width="800" height="1000" fill="url(#halo)"/>
+  <rect x="42" y="42" width="716" height="916" fill="none" stroke="#c6a664" stroke-opacity=".22"/>
+
+  <circle cx="392" cy="430" r="196" fill="#c6a664" mask="url(#crescent)"/>
+  <circle cx="392" cy="430" r="220" fill="none" stroke="#e3d0a6" stroke-opacity=".12"/>
+
+  <g fill="#e3d0a6">
+    <path d="M570 226l4 14 14 4-14 4-4 14-4-14-14-4 14-4z" opacity=".9"/>
+    <path d="M236 300l3 10 10 3-10 3-3 10-3-10-10-3 10-3z" opacity=".65"/>
+    <path d="M616 394l2.5 9 9 2.5-9 2.5-2.5 9-2.5-9-9-2.5 9-2.5z" opacity=".55"/>
+    <circle cx="520" cy="168" r="2.4" opacity=".75"/>
+    <circle cx="294" cy="188" r="2" opacity=".55"/>
+    <circle cx="650" cy="300" r="1.8" opacity=".5"/>
+    <circle cx="196" cy="420" r="2" opacity=".5"/>
+    <circle cx="600" cy="512" r="1.6" opacity=".4"/>
+    <circle cx="270" cy="548" r="1.8" opacity=".4"/>
+  </g>
+
+  <path d="M210 742c70-34 118-30 190 8 72-38 120-42 190-8" fill="none" stroke="#c6a664" stroke-opacity=".55" stroke-width="1.5"/>
+  <g fill="none" stroke="#e3d0a6" stroke-opacity=".5" stroke-linecap="round">
+    <path d="M400 750V672"/>
+    <path d="M400 706c-20-2-34-14-40-32 20 2 34 14 40 32z"/>
+    <path d="M400 706c20-2 34-14 40-32-20 2-34 14-40 32z"/>
+    <path d="M400 682c-14-8-22-20-22-38 14 8 22 20 22 38z"/>
+    <path d="M400 682c14-8 22-20 22-38-14 8-22 20-22 38z"/>
+  </g>
+
+  <circle cx="400" cy="750" r="3" fill="#c6a664"/>
+  <path d="M400 806l10 14-10 14-10-14z" fill="none" stroke="#c6a664" stroke-opacity=".7"/>
+  <path d="M74 880h652" stroke="#c6a664" stroke-opacity=".18"/>
+</svg>

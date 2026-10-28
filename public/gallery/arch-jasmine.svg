@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <title>قوس زمردي بزخارف ياسمين ذهبية</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3b2e"/>
+      <stop offset="1" stop-color="#04211a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="24%" r="65%">
+      <stop offset="0" stop-color="#c6a664" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#c6a664" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <rect x="42" y="42" width="716" height="916" fill="none" stroke="#c6a664" stroke-opacity=".22"/>
+
+  <path d="M188 902V486c0-118 95-214 212-214s212 96 212 214v416" fill="none" stroke="#c6a664" stroke-width="2" stroke-opacity=".85"/>
+  <path d="M218 902V490c0-101 81-183 182-183s182 82 182 183v412" fill="none" stroke="#e3d0a6" stroke-width="1" stroke-opacity=".3"/>
+  <path d="M400 307v595" stroke="#e3d0a6" stroke-opacity=".12"/>
+
+  <g fill="none" stroke="#e3d0a6" stroke-width="2" stroke-linecap="round" stroke-opacity=".6">
+    <path d="M205 488c42-18 70-47 86-86 10-25 20-55 15-88"/>
+    <path d="M595 488c-42-18-70-47-86-86-10-25-20-55-15-88"/>
+    <path d="M244 470c15 12 25 29 29 48"/>
+    <path d="M556 470c-15 12-25 29-29 48"/>
+  </g>
+
+  <g fill="#e3d0a6" fill-opacity=".72">
+    <ellipse cx="243" cy="438" rx="10" ry="22" transform="rotate(-48 243 438)"/>
+    <ellipse cx="273" cy="405" rx="9" ry="20" transform="rotate(-58 273 405)"/>
+    <ellipse cx="557" cy="438" rx="10" ry="22" transform="rotate(48 557 438)"/>
+    <ellipse cx="527" cy="405" rx="9" ry="20" transform="rotate(58 527 405)"/>
+    <ellipse cx="310" cy="357" rx="8" ry="18" transform="rotate(-70 310 357)"/>
+    <ellipse cx="490" cy="357" rx="8" ry="18" transform="rotate(70 490 357)"/>
+  </g>
+
+  <g fill="#fbf7ef" fill-opacity=".9">
+    <circle cx="247" cy="478" r="6"/>
+    <circle cx="238" cy="469" r="4"/>
+    <circle cx="256" cy="469" r="4"/>
+    <circle cx="238" cy="487" r="4"/>
+    <circle cx="256" cy="487" r="4"/>
+    <circle cx="247" cy="478" r="2" fill="#c6a664"/>
+  </g>
+  <g fill="#fbf7ef" fill-opacity=".8">
+    <circle cx="553" cy="478" r="6"/>
+    <circle cx="544" cy="469" r="4"/>
+    <circle cx="562" cy="469" r="4"/>
+    <circle cx="544" cy="487" r="4"/>
+    <circle cx="562" cy="487" r="4"/>
+    <circle cx="553" cy="478" r="2" fill="#c6a664"/>
+  </g>
+  <g fill="#fbf7ef" fill-opacity=".7">
+    <circle cx="400" cy="330" r="5"/>
+    <circle cx="391" cy="322" r="3.2"/>
+    <circle cx="409" cy="322" r="3.2"/>
+    <circle cx="391" cy="338" r="3.2"/>
+    <circle cx="409" cy="338" r="3.2"/>
+    <circle cx="400" cy="330" r="1.8" fill="#c6a664"/>
+  </g>
+
+  <g fill="#e3d0a6">
+    <circle cx="310" cy="566" r="1.6" opacity=".55"/>
+    <circle cx="356" cy="612" r="1.2" opacity=".4"/>
+    <circle cx="452" cy="588" r="1.5" opacity=".5"/>
+    <circle cx="500" cy="640" r="1.2" opacity=".35"/>
+    <circle cx="330" cy="690" r="1.2" opacity=".35"/>
+    <circle cx="472" cy="716" r="1.6" opacity=".45"/>
+  </g>
+
+  <path d="M400 886l11 15-11 15-11-15z" fill="none" stroke="#c6a664" stroke-opacity=".8"/>
+  <path d="M74 926h652" stroke="#c6a664" stroke-opacity=".18"/>
+</svg>
