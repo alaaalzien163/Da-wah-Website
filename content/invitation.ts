@@ -10,7 +10,7 @@ const invitationConfig = {
   numerals: "latn",
 
   meta: {
-    title: "ع و ر — دعوة زفاف",
+    title: "ع  و  ر — دعوة زفاف",
     description:
       "نموذج تجريبي لدعوة زفاف رقمية. بكل الحب والفرح، ندعوكم لمشاركة أجمل لحظات العمر في حفل زفاف ع و ر.",
     themeColor: "#062a21",
@@ -30,10 +30,10 @@ const invitationConfig = {
   },
 
   couple: {
-    groom: { firstName: "ع", fullName: "ع" },
-    bride: { firstName: "ر", fullName: "ر" },
+    groom: { firstName: " ع ", fullName: " ع " },
+    bride: { firstName: " ر ", fullName: " ر " },
     order: "groom-first",
-    monogram: "ع و ر",
+    monogram: "ع  و  ر",
   },
 
   event: {
