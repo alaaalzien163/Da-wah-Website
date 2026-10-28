@@ -183,16 +183,18 @@ as such next to the map action.
 No `vercel.json`, custom server, rewrite, or extra infrastructure is needed.
 Vercel detects Next.js and uses the standard build output.
 
-1. **Put the project on GitHub.** From the project root:
+1. **Put the project on GitHub.** This folder is already initialized as a local
+   Git repository with an initial commit and **no remote**. Create an empty
+   repository on GitHub, then:
 
    ```bash
-   git init
-   git add .
-   git commit -m "Initial invitation prototype"
-   git branch -M main
    git remote add origin https://github.com/<account>/<repository>.git
    git push -u origin main
    ```
+
+   If you are starting from a plain folder instead, run `git init`,
+   `git add .`, `git commit -m "Initial invitation prototype"` and
+   `git branch -M main` first.
 
    Review `git status` before committing. `node_modules/`, `.next/`, build
    output, `.vercel/`, and local env files are already ignored.
